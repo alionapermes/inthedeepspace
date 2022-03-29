@@ -1,6 +1,6 @@
 local return_status="%{$fg[red]%}%(?..<-)%{$reset_color%}"
 
-local host_color="black"
+local host_color="gray"
 if [ -n "$SSH_CLIENT" ]; then
   local host_color="red"
 fi
