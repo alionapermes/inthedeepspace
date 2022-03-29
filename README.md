@@ -1,10 +1,15 @@
 # inthedeepspace
-my custom zsh theme
+
+My custom zsh theme based on [intheloop](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#user-content-intheloop) and inspired of [vim-deep-space](https://github.com/tyrannicaltoucan/vim-deep-space)
+
+![screenshot.png](image/screenshot.png)
 
 ## install
 
 Do not forget to install [oh-my-zsh](https://ohmyz.sh/) firstly
 
 ```sh
-cp theme/inthedeepspace.zsh-theme ~/.oh-my-zsh/custom/themes/inthedeepspace.zsh-theme
+./install.sh
+source ~/.zshrc
 ```
+

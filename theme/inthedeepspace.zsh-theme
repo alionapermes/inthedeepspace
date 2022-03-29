@@ -1,14 +1,6 @@
-# #
-#
-# [ based on intheloop theme ]
-#
-# A multiline prompt with username, hostname, full path, return status, git branch, git dirty status, git remote status
-#
-# #
-
 local return_status="%{$fg[red]%}%(?..<-)%{$reset_color%}"
 
-local host_color="gray"
+local host_color="black"
 if [ -n "$SSH_CLIENT" ]; then
   local host_color="red"
 fi
@@ -27,3 +19,4 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[grey]%})"
 ZSH_THEME_GIT_PROMPT_BEHIND_REMOTE="%{$fg_bold[magenta]%}↓%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_AHEAD_REMOTE="%{$fg_bold[magenta]%}↑%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIVERGED_REMOTE="%{$fg_bold[magenta]%}↕%{$reset_color%}"
+
