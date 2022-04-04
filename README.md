@@ -1,6 +1,6 @@
 # inthedeepspace
 
-My custom zsh theme based on [intheloop](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#user-content-intheloop) and inspired of [vim-deep-space](https://github.com/tyrannicaltoucan/vim-deep-space)
+My custom zsh theme based on [intheloop](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#user-content-intheloop) and inspired by [vim-deep-space](https://github.com/tyrannicaltoucan/vim-deep-space)
 
 ![screenshot.png](image/screenshot.png)
 
